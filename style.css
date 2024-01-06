@@ -43,3 +43,21 @@ header{
     color: #fff;
 }
 
+/* main section  */
+.mid-section{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.pic-column .round{
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background-color: rgba(241, 91, 34, 0.20);
+    margin-top: 350px;
+}
+.pic-column .round img{
+    padding-bottom: 100px;
+}
+
