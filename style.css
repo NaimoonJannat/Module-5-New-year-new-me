@@ -11,12 +11,15 @@ header{
     background-image: url(images/banner/banner1.png);
     background-repeat: no-repeat;
     background-size: cover;
-   
+    padding: 250px 250px 500px 250px;
 }
 
 .title{
     text-align: right;
-    padding: 250px 250px 500px 250px;
+    width: 30%;
+    max-width: 1600px;
+    align-items: center;
+    position: bottom;
     margin-left: 1200px;
 }
 
