@@ -32,7 +32,7 @@ header{
     margin-top: 25px;
     padding-left: 100px;
 }
-.primary-btn{
+.contact-btn{
     margin-top: 30px;
     width: 160px;
     height: 64px;
@@ -44,20 +44,119 @@ header{
 }
 
 /* main section  */
+main{
+    width: 70%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
 .mid-section{
-    display: flex;
     align-items:center;
-    justify-content: space-around;
+    padding: 200px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 
-.pic-column .round{
+/* picture  */
+.pic-column{
+    height: 724px;
+    width: 569px;
+    display: flex;
+}
+.pic-column img{
+    position: absolute;
+}
+
+.round{
     width: 527.929px;
     height: 527.929px;
     border-radius: 527.929px;
     background-color: rgba(241, 91, 34, 0.20);
-    margin-top: 350px;
+    margin: 0px 18px;
+    align-self: self-end;
 }
-.pic-column .round img{
-    padding-bottom: 100px;
+
+/* failure container  */
+.info-column{
+    width: 25%;
+    text-align: left;
+    
 }
+
+.mid-title{
+    padding: 20px 0px;
+    color:#151414;
+    font-size: 40px;
+}
+.mid-description{
+    padding: 20px 0px;
+    color:#444343;
+    font-size: 16px;
+}
+
+ul>li{
+    list-style: none;
+    padding-bottom: 10px;
+}
+.icons{
+    color: #16D887;
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* My plan  */
+.my-plans{
+    text-align: center;
+}
+.plan-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.plan-title{
+    padding: 10px;
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+}
+.plan-subtitle{
+    color: #737272;
+    font-size: 25px;
+}
+/* banner section  */
+
+.banner{
+    margin: 230px;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    border: none;
+}
+.call-container{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    padding: 59px 0 59px 64px;
+    border-radius: 10px;
+}
+.banner-title{
+    color: #fff;
+    width: 459px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.primary-btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    background: #ffffff;
+    color: #F15B22;
+}
+
+/* footer section  */
+
+
 
